@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">eVakcina</string>
+
+
+    <string name="cijepljenje_naslov" translatable="false">Šta je imunizacija?</string>
+
+    <string name="cijepljenje_opis" translatable="false"> Cijepljenje, vakcinacija ili imunizacija je medicinski postupak
+        kojim se primjenom cjepiva u organizam potiče stvaranje protutijela,
+        odnosno specifične otpornosti organizma na određene
+        uzročnike zaraznih bolesti. </string>
+
+
+    <string name="zastoVakcina" translatable="false">Zašto se vakcinisati?</string>
+
+
+    <string name="koristVakcine" translatable="false">Korist od vakcine jeste gradnja nečega što zovemo kolektivni imunitet
+        populacije, a koji predstavlja zaštitu grupe od izbijanja epidemije ukoliko je veliki
+        procenat pripadnika grupe vakcinisan. Na ovaj način štitimo i one osobe koje zbog nekog
+        razloga nisu smjele primiti vakcinu.</string>
+    <string name="next" translatable="false">Nastavi</string>
+
+    <string name="zapocni_vakcinaciju" translatable="false"> <b>254.183</b> Osoba se vakcinisalo, a vi?</string>
+
+    <string name="budimo_odgovorni" translatable="false">
+        Stotinu godina prije, infektivne bolesti su bile vodeći uzrok smrti u svijetu!
+        Budimo odgovorni sačuvajmo sebe i svoje bližnje.</string>
+    <string name="prijavi_se" translatable="false">Prijavi se</string>
+
+    <string name="lorem" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</string>
+
+    <string name="Pfizer1" translatable="false">Pfizer vakcina/ Pfizer cjepivo/Fajzer vakcina, koju još možete naći pod imenima Comirnaty i BNT162b2 je
+        mRNA / RNK vakcina koju je razvila mala biotehnološka kompanija BioNTech iz Njemačke u
+        saradnji s kompanijom Pfizer. Radi se o bezbjednoj, visokoefikasnoj vakcini koja ne sadrži toksične materije.</string>
+
+    <string name="Pfizer2" translatable="false">Nemojte prema ovoj vakcini imati nepovjerenje jer se zasniva na jednoj novoj tehnologiji! Pa i adenovirusne vakcine poput Sputnjik V, AstraZeneca se zasnivaju na modernim tehnologijama i to nas ne treba odbiti.</string>
+    <string name="Pfizer3" translatable="false">Jako je dobro ispitano da li su ove vakcine sigurne i to prvo na životinjama, pa potom na ljudima u kliničkim studijama. Zapravo – vakcine starije generacije, koje su se proizvodile osamdesetih bile su manje bezbjedne: neke starije MMR vakcine su imale više nuspojava, kao i oralna vakcina protiv dječije paralize, a te vakcine se više ni ne daju. Vakcine postaju sve bezbjednije i čak manje bolne.</string>
+    <string name="Pfizer4" translatable="false">Comirnaty je vakcina koje se primjenjuje za sprječavanje bolesti COVID-19 prouzročene virusom SARS-CoV-2.
+Daje odraslima i adolescentima u dobi od 16 godina i starijima.
+Ova vakcina potiče imunološki sistem (prirodni obrambeni sistem tijela) na stvaranje antitijela i T limfocita (stanični imunitet) koji djeluju protiv virusa i tako štite od bolesti COVID-19.</string>
+
+    <string name="Pfizer5" translatable="false">Comirnaty- Pfizer cjepivo ne sadrži virus koji uzrokuje COVID-19, od njega ne možete dobiti bolest COVID-19.</string>
+    <string name="Pfizer6" translatable="false">Vakcine protiv korone zasnovane na informativnoj RNK, glasničkoj RNK tj. messenger RNA ubacuju u naše ćelije lipidne nanočestice u kojima se nalazi onaj segment genetičke poruke virusa SARS-CoV-2 zadužen za sintezu Spike proteina. RNK je nestabilna i da bi se zaštitila, da ne bi degradirala sistem dostave uključuju “mjehur” od lipidnih komponenti (uglavnom holesterol i fosfoholin, koji čine membrane naših ćelija, te PEG). Upravo stoga se ova vakcina distribuira i čuva u ultrahladnom lancu na -70 oC – da bi se sačuvala molekula RNK i taj lipidni mjehur, jer se on topi na višim temperaturama i razgrađuje.</string>
+
+    <string name="Pfizer7" translatable="false">Šta morate znati prije nego što primite Comirnaty- Pfizer vakcinu?</string>
+    <string name="Pfizer8" translatable="false">Kontraindikacije: Comirnaty se ne smije dati
+• ako ste alergični na aktivnu tvar ili neki pomoćni sastojak ove vakcine</string>
+    <string name="Pfizer9" translatable="false">Osobe koje imaju alergijsku reakciju na neke druge supstance – kikiriki, penicilin, lateks i drugo, savjetuju se da prime vakcinu i nema posebnih preporuku i upozorenja za njih.</string>
+
+    <string name="Pfizer10" translatable="false">Koliko dugo traje zaštita Pfizer vakcinom?</string>
+    <string name="Pfizer11" translatable="false">Šest mjeseci nakon što su dobili drugu dozu cjepiva Pfizer-BioNTech u sklopu kliničkog ispitivanja na 46.000 osoba, dobrovoljci su ostali više od 90% zaštićeni od simptomatskog COVID-19 i još bolje zaštićeni od teške bolesti, pokazalo je novo istraživanje tvrtke. (izvor: saopštenje Pfizer, obnova analize poataka dobrovoljaca nakon iz Faze 3 kliničkih ispitivanja)</string>
+    <string name="Pfizer12" translatable="false">Djeca i adolescenti</string>
+    <string name="Pfizer13" translatable="false">Comirnaty se ne preporučuje djeci mlađoj od 16 godina. Međutim, u planu je da se ispita efikasnost ove vakcina na osobama mlađim od 16 godina.</string>
+    <string name="Pfizer14" translatable="false">Trudnoća i dojenje</string>
+    <string name="Pfizer15" translatable="false">Ako ste trudni ili dojite, mislite da biste mogli biti trudni ili planirate imati dijete, obratite se svom
+liječniku ili ljekarniku za savjet prije nego što primite ovu vakcinu. Ispočetka se ova vakcina nije preporučivala trudnicama i dojiljama, ali samo zato što nije bilo dovoljno podataka iz ispitivanja na ovim grupama. Neke žene koje su u toku ispitivanja primile ovu vakcinu su zatrudnile, a već su je primale i dojilje.</string>
+    <string name="Pfizer16" translatable="false">Ovo je dokaz da ova vakcina – Pfizer cjepivo ne izaziva sterilitet i da ćete moći imati djecu ako se vakcinišete ovom vakcinom. Ova vakcina ne sadrži ništa što bi moglo utjecati na dijete koje doji ili plod u materici. Kliničke studije na trudnicama su počele.</string>
+
+
+    <string name="SputnikV1" translatable="false">Ruska vakcina protiv koronavirusa SARS-CoV-2, poznata kao Sputnik V (čitati kao “Sputnjik Ve”) tj. Gam-Kovid-Vak (Гам-КОВИД-Вак) je dvokomponentna, dvodozna adenovirusna vektorska rekombinirana vakcina. Na ovoj platformi – adenovirusima – zasniva se i vakcina AstraZeneca/Oxford, AstraZeneca-Covishield te Johnson Johnson/Janssen cjepivo protiv COVID-19.</string>
+    <string name="SputnikV2" translatable="false">Efikasnost Sputnik V vakcine protiv COVID-19</string>
+    <string name="SputnikV3" translatable="false">Ruska vakcina Sputnjik V/Sputnik V Instituta Gamaleja bazirana na adenovirusnom vektoru s heterogenim dizajnom ima efikasnost od 91.6% nakon 2 doze. Štiti 100% od komplikacija i teške slike COVID-19 te smrtnog ishoda.</string>
+
+    <string name="SputnikV4" translatable="false">Način davanja i doziranje</string>
+    <string name="SputnikV5" translatable="false">Doza ove vakcine iznosi 0.5 ml (doza i komponente I i komponente II), a doze se daju u razmaku od 3 sedmice.</string>
+
+    <string name="SputnikV6" translatable="false">Čuvanje vakcine Sputnik V</string>
+    <string name="SputnikV7" translatable="false">Ruska vakcina Gam-Kovid-Vak /Sputnik V cjepivo protiv COVID-19 se distribuira i čuva na temperaturi nižoj od -18 °C. To znači da je vakcina je zaleđena, pa se mora pažljivo i polako odmrznuti. Jednom odleđena, ova vakcina se ne može dugo čuvati: svega 2 sata te na vakcinalnom punktu mora postojati zamrzivač.</string>
+
+    <string name="SputnikV8" translatable="false">Kontraindikacije</string>
+    <string name="SputnikV9" translatable="false">U uputstvu se navode kontraindikacije za primanje vakcine poput anafilaktičke reakcije na neku od komponenti ove vakcine, akutne infekcije (vakcina se može primiti tek 2-4 sedmice nakon oporavka). Kontraindicirana je i osobama koje imaju visoku temperaturu (tek nakon oporavka se može primiti vakcina).</string>
+    <string name="SputnikV10" translatable="false">Ova vakcina je, za sada, kontraindicirana u trudnoći i za žene koje doje. Kontraindikacije za sada je i uzrast ispod 18 godina.</string>
+    <string name="SputnikV11" translatable="false">Da li je istina da Rusija uopšte ne vakciniše svoje populaciju?</string>
+    <string name="SputnikV12" translatable="false">Ne, ovo nije istina. Prema podacima Bloomberg, do sredine marta u Rusiji je vakcinisano 10.6 miliona ljudi. 3.6% populacije je primilo bar jednu dozu a 2.9% je potpuno vakcinisano(25.3.2021). Dobar dio ovoga je upravo Sputnjik V vakcina.</string>
+    <string name="SputnikV13" translatable="false"></string>
+
+
+    <string name="AstraZeneca1" translatable="false">AstraZeneca vakcina protiv COVID -19 je adenovirusna vakcina koju je švedsko-britanska kompanija AstraZeneca razvijala s Univerzitetom Oksford (Jenner institutom i Oxford Vaccine Group). Nosi nekoliko naziva: sada je registrovana kao Vaxzevria, a prije je bila poznata po imenima AZD1222, ChAdOx1 nCoV-19, COVID-19 Vaccine AstraZeneca te Covishield. Covishield je ista AstraZeneca vakcina, samo se proizvodi u Indijskom institutu za serume prema dogovoru ovog instituta i AstraZeneca.</string>
+
+    <string name="AstraZeneca2" translatable="false">Efikasnost AstraZeneca vakcine</string>
+    <string name="AstraZeneca3" translatable="false">S povećanjem razmaka između doza, ova vakcina je efikasnija. Sada se preporučuje da razmak između doza bude veći od 4 sedmice, čak 12 sedmica (2) jer je tada efikasnost oko 82%</string>
+
+    <string name="AstraZeneca4" translatable="false">Da li je AstraZeneca vakcina dovoljno efikasna kod starijih osoba?</string>
+    <string name="AstraZeneca5" translatable="false">Da, ova vakcina ima zadovoljavajuću efikasnost kod starijih osoba i čak su starije osobe rjeđe prijavljivale nuspojave.</string>
+
+    <string name="AstraZeneca6" translatable="false">Koliko dugo traje zaštita vakcinom AstraZeneca?</string>
+    <string name="AstraZeneca7" translatable="false">Trenutno nije poznato koliko dugo traje zaštita koju pruža vakcina protiv COVID-19 od AstraZeneca.
+Osobe vakcinisane tokom kliničkih ispitivanja nastavit će se pratiti još godinu dana kako bi se prikupilo
+više informacija o trajanju zaštite. Nakon godinu dana znaćemo da li imunitet od vakcine traje godinu dana, nakon 2 godine – da li traje dvije godine i tako dalje. Potrebno je vrijeme da saznamo koliko zapravo traje imunitet od nove vakcine.</string>
+
+    <string name="AstraZeneca8" translatable="false">Mogu li djeca primiti vakcinu protiv COVID-19 AstraZeneca?</string>
+    <string name="AstraZeneca9" translatable="false">Ova vakcina trenutno se ne preporučuje za primjenu kod djece. EMA Evropska agencija za lijekove i medicinska sredstva) je s proizvođačem postigla dogovor o planu provođenja ispitivanja na djeci u kasnijoj fazi</string>
+
+    <string name="AstraZeneca10" translatable="false">Mogu li trudnice i dojilje primiti cjepivo AstraZeneca?</string>
+    <string name="AstraZeneca11" translatable="false">NEMA NIKAKVIH DOKAZA DA ASTRAZENECA VAKCINA IZAZIVA STERILITET NI KOD MUŠKARACA NI KOD ŽENA. Radi se o dezinformaciji. Ne postoji mehanizam preko kojeg bi ova vakcina i bilo koja druga to mogla. Da – to znači da ova vakcina nema utjecaja na proces začeća i trudnoću i nakon vakcinacije, vakcina vas neće učiniti sterilnim. Studije na životinjama nisu indicirale da ova vakcina ugrožava plodnost, da je genotoksična niti da može izazvati promjene u spolnim stanicama (izvor: EMA).</string>
+
+    <string name="AstraZeneca12" translatable="false">Čuvanje vakcine AstraZeneca</string>
+    <string name="AstraZeneca13" translatable="false">Čuvati u hladnjaku (2 ° C do 8 ° C). Nema potrebe za ultra-hladnim lancem. Ne smije se smrzavati.
+
+        Bočice se čuvaju u vanjskoj kutiji radi zaštite od svjetlosti. Nakon davanja prve doze, sadržaj bočice se mora potrošiti u roku od 6h.</string>
+    <string name="AstraZeneca14" translatable="false"></string>
+    <string name="AstraZeneca15" translatable="false"></string>
+    <string name="AstraZeneca16" translatable="false"></string>
+
+
+    <string name="title_activity_main" translatable="false">eVakcina</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">eVakcina</string>
+    <string name="nav_header_subtitle" translatable="false">covid19.imunizacija@gmail.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home" translatable="false">Početna</string>
+    <string name="menu_questions" translatable="false">Česta pitanja i odgovori</string>
+    <string name="menu_about" translatable="false">O aplikaciji</string>
+    <string name="question" translatable="false">Koji udio populacije mora biti vakcinisan da bismo došli do kolektivnog imuniteta (engl. "\"herd immunity\"")?</string>
+    <string name="description" translatable="false">Eksperti još procjenjuju koliki stepen vakcinacije je neophodan da bi došlo do stvaranja kolektivnog imuniteta u odnosu na COVID-19. Kolektivni imunitet podrazumjeva da je određeni (dovoljan) broj ljudi u zajednici zaštićen od bolesti iz razloga jer su je već preležali ili su vakcinisani. Takav imunitet značajno usporava prenos virusa sa jedne osobe na drugu i čak štiti pojedince koji ne mogu biti vakcinisani (kao što su novorođenčad). Tačan procenat ljudi koji treba da razviju otpornost na bolest radi sticanja kolektivnog imuniteta zavisi od same vrste zaraze.</string>
+    <string name="question1" translatable="false">Što traje duže – imunitet stečen nakon preležane bolesti ili imunitet stečen vakcinacijom protiv COVD-19? </string>
+    <string name="description1" translatable="false">Nivo zaštite koji osoba stiče nakon infekcije koronavirusom (takozvani prirodni imunitet) varira u zavisnosti od bolesti i različit je od osobe do osobe. Imajući u vidu da je ovo nova vrsta virusa, još uvijek se pouzdano ne zna koliko zapravo traje prirodni imunitet. Trenutni indikatori pokazuju da je ponovno obolijevanje od istog virusa veoma rijetko tokom prvih 90 dana nakon prvobitne infekcije.  </string>
+    <string name="question2" translatable="false">Da li treba da se vakcinišem, ukoliko sam već preležao/la COVID-19?</string>
+    <string name="description2" translatable="false">Vakcinacija je dobrovoljna i preporučena.  Imajući u vidu ozbiljne zdravstvene rizike i činjenicu da je moguće ponovo se zaraziti virusom COVID-19, savjetuje se da treba da primite vakcinu bez obzira na to što ste već preležali bolest. Stručnjaci još ne znaju koliko dugo traje stečeni imunitet nakon preležane bolesti, iako su slučajevi ponovne zaraze rijetki. Prirodni i imunitet stečen vakcinacijom oba predstavljaju važan faktor u sprečavanju širenja virusa.</string>
+    <string name="question3" translatable="false">Je li vakcina obavezna ako želim da radim svoj posao kao i obično?</string>
+    <string name="description3" translatable="false">Vakcinacija nije obavezna, ali je za pojedine djelatnosti preporučena.</string>
+    <string name="question4" translatable="false">Da li treba da nosim masku i izbjegavam gužve, ukoliko sam primo/la dvije doze vakcine?</string>
+    <string name="description4" translatable="false">Da. I dalje nemamo dovoljno informacija da bismo mogli reći da je u potpunosti bezbjedno kretati se bez maske i u grupi. Stručnjacima je potrebno još podataka kako bi mogli da donesu takvu odluku.</string>
+    <string name="question5" translatable="false">Koliko vakcina protiv virusa COVID-19 je potrebno primiti?</string>
+    <string name="description5" translatable="false">Vakcine koje su trenutno odobrene u borbi protiv virusa COVID-19 zahtijevaju dvije doze. Drugu dozu treba da primite u roku od tri sedmice do jednog mjeseca nakon prve. Ipak, nije određen maksimalni period čekanja između prve i druge doze vakcine. Takođe, ne treba primati drugu dozu vakcine prije preporučenog perioda čekanja.</string>
+    <string name="question6" translatable="false">Jesu li vakcine protiv COVID-19 bezbjedne?</string>
+    <string name="description6" translatable="false">Sve vakcine protiv virusa COVID-19 su prošle rigorozne studije, kako bi se osiguralo da budu što bezbjednije.  </string>
+    <string name="question7" translatable="false">Da li djeca treba da prime vakcinu protiv COVID-19 oboljenja?</string>
+    <string name="description7" translatable="false">Trenutno vakcina protiv COVID-19 oboljenja nije namijenjena za djecu uzrasta mlađeg od 16. godina.</string>
+    <string name="question8" translatable="false">Šta da radim ako primjetim negativne reakcije na vakcinu?</string>
+    <string name="description8" translatable="false">Ukoliko primjetite bilo kakve nuspojave i neželjene reakcije nakon primanja vakcine, što prije se obratite svom ljekaru u lokalnoj zdravstvenoj ustanovi.</string>
+
+    <string name="detaljni_opis_aplikacije" translatable="false">Detaljni opis aplikacije možete vidjeti na ovom LINKU.</string>
+    <string name="share_apk_text" translatable="false">Podijeli</string>
+
+
+    <string name="barrier_info">Trenutno niste u mogućnosti primiti vakcinu protiv Covida-19, zbog navedenih prepreka.   </string>
+    <string name="back_to_home"> Nazad na početnu </string>
+
+    <string name="back_to_home_eng">Back to home </string>
+    <string name="barrier_info_eng">You are currently unable to receive the Covid-19 vaccine due to these barriers. </string>
+
+    <string name="barrier1">Trenutno bolujem od Covid-19</string>
+    <string name="barrier2">Trudnica</string>
+    <string name="barrier3">Dojilja</string>
+    <string name="barrier_else">Ništa od navedenog</string>
+
+    <string name="barrier1_eng">I am currently suffering from Covid-19</string>
+    <string name="barrier2_eng">Pregnant woman</string>
+    <string name="barrier3_eng">Breastfeeding</string>
+    <string name="barrier_else_eng">None of the above</string>
+    <string name="share_text">Samo jedan klik i registrovali ste se za vakcinaciju protiv Covid19!
+
+Ja sam to učinio koristeći aplikaciju eVakcina. Instalirajte i Vi aplikaciju i aplicirajte kako bi dali doprinos u zaustavljanju lanca širenja infekcije. Čuvajte svoje živote i živote najbližih.
+https://easyupload.io/8so3h8 </string>
+    <string name="share">Podijeli</string>
+    <string name="first_name">Ime</string>
+    <string name="last_name">Prezime</string>
+    <string name="jmbg">JMBG</string>
+    <string name="number">Broj telefona</string>
+    <string name="email">Email</string>
+    <string name="email2">Ponovno unesite vaš email</string>
+    <string name="gendeSellect">Odaberite svoj spol</string>
+    <string name="male">Muško</string>
+    <string name="female">Žensko</string>
+    <string name="dob">Odaberite datum rođenja</string>
+    <string name="city">Unesite ime grada u kojem živite</string>
+    <string name="cityName">Ime grada</string>
+    <string name="cantonSellect">Odaberite vaš kanton</string>
+    <string name="cantonList">Lista kantona</string>
+    <string name="rb1">Hronični bolesnik</string>
+    <string name="rb2">Medicinski radnik</string>
+    <string name="rb3">Lice starije od 65 godina</string>
+    <string name="rb4">Zaposlenik u staračkom domu</string>
+    <string name="rb5">Ništa od navedenog</string>
+    <string name="vaccList">Lista vakcina</string>
+    <string name="term">Vaš termin je za</string>
+    <string name="location">Lokacija:</string>
+    <string name="vaccSel">Vaš izbor za vakcinu:</string>
+    <string name="RegisteredUsers">Broj registrovanih korisnika:</string>
+
+
+</resources>

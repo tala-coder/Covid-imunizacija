@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="pmf.unsa.imunizacija.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_registration1"
+            app:destination="@id/registration1"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_about_apk"
+            app:destination="@id/nav_about_apk"
+            app:popUpTo="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_question"
+            app:destination="@id/nav_question"
+            app:popUpTo="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_question"
+        android:name="pmf.unsa.imunizacija.ui.questions.QuestionsFragment"
+        android:label="@string/menu_questions"
+        tools:layout="@layout/fragment_questions" />
+
+    <fragment
+        android:id="@+id/nav_about_apk"
+        android:name="pmf.unsa.imunizacija.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about_apk" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="pmf.unsa.imunizacija.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="pmf.unsa.imunizacija.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registration1"
+        android:name="pmf.unsa.imunizacija.Registration1"
+        android:label="fragment_registration1"
+        tools:layout="@layout/fragment_registration1"
+        app:startDestination="@id/action_registration1_to_registration2">
+        <action
+            android:id="@+id/action_registration1_to_registration2"
+            app:destination="@id/registration2"
+            app:popUpTo="@id/registration1"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/registration2"
+        android:name="pmf.unsa.imunizacija.Registration2"
+        android:label="fragment_registration2"
+        tools:layout="@layout/fragment_registration2" >
+        <action
+            android:id="@+id/action_registration2_to_checkingPossibilities"
+            app:destination="@id/checkingPossibilities"
+            app:popUpTo="@id/registration2" />
+        <argument
+            android:name="firstName"
+            app:argType="string" />
+        <argument
+            android:name="lastName"
+            app:argType="string" />
+        <argument
+            android:name="jmbg"
+            app:argType="string" />
+        <argument
+            android:name="tel"
+            app:argType="string" />
+        <argument
+            android:name="mail"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/priorityGroups"
+        android:name="pmf.unsa.imunizacija.PriorityGroups"
+        android:label="fragment_priority_groups"
+        tools:layout="@layout/fragment_priority_groups" >
+        <action
+            android:id="@+id/action_priorityGroups_to_vaccineSelection"
+            app:destination="@id/vaccineSelection"
+            app:popUpTo="@id/priorityGroups"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="firstName"
+            app:argType="string" />
+        <argument
+            android:name="lastName"
+            app:argType="string" />
+        <argument
+            android:name="jmbg"
+            app:argType="string" />
+        <argument android:name="tel"
+            app:argType="string" />
+        <argument
+            android:name="mail"
+            app:argType="string" />
+        <argument
+            android:name="city"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="canton"
+            app:argType="string" />
+        <argument
+            android:name="barrier"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkingPossibilities"
+        android:name="pmf.unsa.imunizacija.CheckingPossibilities"
+        android:label="fragment_checking_possibilities"
+        tools:layout="@layout/fragment_checking_possibilities" >
+        <action
+            android:id="@+id/action_checkingPossibilities_to_priorityGroups"
+            app:destination="@id/priorityGroups"
+            app:popUpTo="@id/checkingPossibilities" />
+        <argument
+            android:name="firstName"
+            app:argType="string" />
+        <argument
+            android:name="lastName"
+            app:argType="string" />
+        <argument
+            android:name="jmbg"
+            app:argType="string" />
+        <argument
+            android:name="tel"
+            app:argType="string" />
+        <argument
+            android:name="mail"
+            app:argType="string" />
+        <argument
+            android:name="city"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_checkingPossibilities_to_inposibleRegistrationFragment"
+            app:destination="@id/inposibleRegistrationFragment"
+            app:popUpTo="@id/nav_home" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="canton"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/vaccineSelection"
+        android:name="pmf.unsa.imunizacija.VaccineSelection"
+        android:label="fragment_vaccine_selection"
+        tools:layout="@layout/fragment_vaccine_selection" >
+        <action
+            android:id="@+id/action_vaccineSelection_to_sputnikV2"
+            app:destination="@id/sputnikV2"
+            app:popUpTo="@id/vaccineSelection" />
+        <action
+            android:id="@+id/action_vaccineSelection_to_pfizer2"
+            app:destination="@id/pfizer2"
+            app:popUpTo="@id/vaccineSelection" />
+        <action
+            android:id="@+id/action_vaccineSelection_to_astraZeneca2"
+            app:destination="@id/astraZeneca2"
+            app:popUpTo="@id/vaccineSelection"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="firstName"
+            app:argType="string" />
+        <argument
+            android:name="lastName"
+            app:argType="string" />
+        <argument
+            android:name="jmbg"
+            app:argType="string" />
+        <argument
+            android:name="tel"
+            app:argType="string" />
+        <argument
+            android:name="mail"
+            app:argType="string" />
+        <argument
+            android:name="city"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="canton"
+            app:argType="string" />
+        <argument
+            android:name="barrier"
+            app:argType="string" />
+        <argument
+            android:name="priority"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_vaccineSelection_to_itemFragment"
+            app:destination="@id/itemFragment"
+            app:popUpTo="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/sputnikV2"
+        android:name="pmf.unsa.imunizacija.SputnikV"
+        android:label="fragment_sputnik_v"
+        tools:layout="@layout/fragment_sputnik_v" />
+    <fragment
+        android:id="@+id/astraZeneca2"
+        android:name="pmf.unsa.imunizacija.AstraZeneca"
+        android:label="fragment_astra_zeneca"
+        tools:layout="@layout/fragment_astra_zeneca" />
+    <fragment
+        android:id="@+id/pfizer2"
+        android:name="pmf.unsa.imunizacija.Pfizer"
+        android:label="fragment_pfizer"
+        tools:layout="@layout/fragment_pfizer" />
+    <fragment
+        android:id="@+id/inposibleRegistrationFragment"
+        android:name="pmf.unsa.imunizacija.inposibleRegistrationFragment"
+        android:label="inposibleRegistrationFragment"
+        tools:layout="@layout/fragment_inposible_registration">
+        <argument
+            android:name="firstName"
+            app:argType="string" />
+        <argument
+            android:name="lastName"
+            app:argType="string" />
+        <argument
+            android:name="jmbg"
+            app:argType="string" />
+        <argument
+            android:name="tel"
+            app:argType="string" />
+        <argument
+            android:name="mail"
+            app:argType="string" />
+        <argument
+            android:name="city"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="canton"
+            app:argType="string" />
+        <argument
+            android:name="barrier"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_inposibleRegistrationFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="pmf.unsa.imunizacija.FormFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_form" >
+        <argument
+            android:name="firstName"
+            app:argType="string" />
+        <argument
+            android:name="lastName"
+            app:argType="string" />
+        <argument
+            android:name="jmbg"
+            app:argType="string" />
+        <argument
+            android:name="tel"
+            app:argType="string" />
+        <argument
+            android:name="mail"
+            app:argType="string" />
+        <argument
+            android:name="city"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="canton"
+            app:argType="string" />
+        <argument
+            android:name="barrier"
+            app:argType="string" />
+        <argument
+            android:name="priority"
+            app:argType="string" />
+        <argument
+            android:name="vaccine"
+            app:argType="string" />
+    </fragment>
+</navigation>

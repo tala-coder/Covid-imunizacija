@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/registration1"
+            android:icon="@drawable/register_icon"
+            android:title="Prijava za vakcinaciju" />
+
+    </group>
+
+
+    <item android:title="O vakcinama">
+        <menu>
+            <item
+                android:id="@+id/pfizer2"
+                android:icon="@drawable/vaccine_icon"
+                android:title="Pfizer-BioNTech" />
+
+            <item
+                android:id="@+id/astraZeneca2"
+                android:icon="@drawable/vaccine_icon"
+                android:title="AstraZeneca-Oxford" />
+
+            <item
+                android:id="@+id/sputnikV2"
+                android:icon="@drawable/vaccine_icon"
+                android:title="Sputnjik V" />
+        </menu>
+    </item>
+
+
+    <item android:title="Ostalo">
+        <menu>
+
+            <item
+                android:id="@+id/nav_question"
+                android:icon="@drawable/questions_icon"
+                android:title="@string/menu_questions" />
+
+            <item
+                android:id="@id/nav_about_apk"
+                android:icon="@drawable/info_icon"
+                android:title="@string/menu_about" />
+
+        </menu>
+    </item>
+
+</menu>
